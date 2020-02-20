@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyEventBrite</string>
+    <string name="title_attending_list">Attending</string>
+    <string name="title_invalid">Invalid</string>
+    <string name="title_duplicate">Duplicate</string>
+    <string name="title_valid_email">Valid Email</string>
+    <string name="question_emails">Emails</string>
+    <string name="hint_enter_emails">Enter emails (CSV)</string>
+    <string name="question_done">Done</string>
+    <string name="delete_email">Delete</string>
+    <string name="title_send_all">Send All</string>
+    <string name="title_sort_by_seating">Sort By Seating</string>
+    <string name="title_sort_by_country">Sort By Country</string>
+    <string name="title_search">Search</string>
+    <string name="search_hint">Enter a email</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="title_count_bus">Bus Count</string>
+    <string name="title_count_exchanged_students">Exchanged Student Count</string>
+    <string name="title_count_attendees">Attendees Count</string>
+    <string name="title_count_valid_email">Valid Email Count</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete_email"
+        android:title="@string/delete_email" />
+    <item
+        android:id="@+id/count_valid_email"
+        android:title="@string/title_count_valid_email"></item>
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/title_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+</menu>

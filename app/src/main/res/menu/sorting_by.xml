@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sort_by_seating"
+    android:title="@string/title_sort_by_seating"></item>
+    <item android:id="@+id/sort_by_country"
+        android:title="@string/title_sort_by_country"></item>
+    <item android:id="@+id/count_attendees"
+        android:title="@string/title_count_attendees"/>
+    <item android:id="@+id/count_exchanged_students"
+        android:title="@string/title_count_exchanged_students"/>
+    <item
+        android:id="@+id/search_table"
+        android:title="@string/title_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_attending_list">
+
+    <fragment
+        android:id="@+id/navigation_attending_list"
+        android:name="com.example.myeventbrite.ui.attending_list.AttendingListFragment"
+        android:label="@string/title_attending_list"
+        tools:layout="@layout/fragment_attending" />
+
+    <fragment
+        android:id="@+id/navigation_duplicate"
+        android:name="com.example.myeventbrite.ui.duplicate.DuplicateFragment"
+        android:label="@string/title_duplicate"
+        tools:layout="@layout/fragment_invalid" />
+
+    <fragment
+        android:id="@+id/navigation_invalid"
+        android:name="com.example.myeventbrite.ui.invalid.InvalidFragment"
+        android:label="@string/title_invalid"
+        tools:layout="@layout/fragment_invalid" />
+    <fragment
+        android:id="@+id/navigation_valid_email"
+        android:name="com.example.myeventbrite.ui.valid_email.ValidEmailFragment"
+        android:label="@string/title_valid_email"
+        tools:layout="@layout/fragment_vaild_email" />
+
+</navigation>

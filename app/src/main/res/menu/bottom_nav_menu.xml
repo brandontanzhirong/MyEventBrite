@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_attending_list"
+        android:title="@string/title_attending_list" />
+
+    <item
+        android:id="@+id/navigation_duplicate"
+        android:title="@string/title_duplicate" />
+
+    <item
+        android:id="@+id/navigation_invalid"
+        android:title="@string/title_invalid" />
+    <item
+        android:id="@+id/navigation_valid_email"
+        android:title="@string/title_valid_email" />
+</menu>
